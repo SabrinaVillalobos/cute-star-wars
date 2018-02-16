@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="icon" href="assets/img/Leia-icon_34495.png">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <title>Swapi Chars Info</title>
+</head>
+<body>
+
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="name"></h4>
+      </div>
+      <div class="charInfo">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- modal end -->
+
+<!-- logo -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 text-center">
+      <img class="img-fluid logo" src="assets/img/star_wars_logo_PNG36.png" alt="">
+      <p>Click the characters to access their info</p>
+    </div>
+  </div>
+</div>
+<!-- logo end -->
+
+<!-- chars -->
+<div class="container-fluid chars">
+    <div class="row">
+        <div class="col-xs-6 col-lg-3">
+          <img data-toggle="modal" data-target="#myModal" class="img-fluid char" id="11" src="assets/img/anakin.png" alt="">
+        </div>
+        <div class="col-xs-6 col-lg-3">
+          <img data-toggle="modal" data-target="#myModal" class="img-fluid char" id="2" src="assets/img/C-3PO.png" alt="">
+        </div>
+        <div class="col-xs-6 col-lg-3">
+          <img data-toggle="modal" data-target="#myModal" class="img-fluid char" id="14" src="assets/img/han.png" alt="">
+        </div>
+        <div class="col-xs-6 col-lg-3">
+          <img data-toggle="modal" data-target="#myModal" class="img-fluid char" id="5" src="assets/img/leia.png" alt="">
+        </div>
+        <div class="row">
+        <div class="col-xs-6 col-lg-3">
+          <img data-toggle="modal" data-target="#myModal" class="img-fluid char" id="1" src="assets/img/luke.png" alt="">
+        </div>
+        <div class="col-xs-6 col-lg-3">
+          <img data-toggle="modal" data-target="#myModal" class="img-fluid char" id="13" src="assets/img/chewwy.png" alt="">
+        </div>
+        <div class="col-xs-6 col-lg-3">
+          <img data-toggle="modal" data-target="#myModal" class="img-fluid char" id="10" src="assets/img/obi.png" alt="">
+        </div>
+        <div class="col-xs-6 col-lg-3">
+          <img data-toggle="modal" data-target="#myModal" class="img-fluid char" id="3" src="assets/img/r2d2.png" alt="">
+        </div>
+          <div class="row">
+        <div class="col-xs-6 col-lg-3">
+          <img data-toggle="modal" data-target="#myModal" class="img-fluid char" id="4" src="assets/img/vader.png" alt="">
+        </div>
+        <div class="col-xs-6 col-lg-3">
+          <img data-toggle="modal" data-target="#myModal" class="img-fluid char" id="20" src="assets/img/yoda.png" alt="">
+        </div>
+        <div img class="col-xs-6 col-lg-3">
+          <img data-toggle="modal" data-target="#myModal" class="img-fluid char" id="51" src="assets/img/mace.png" alt="">
+        </div>
+        <div class="col-xs-6 col-lg-3">
+          <img data-toggle="modal" data-target="#myModal" class="img-fluid char" id="44" src="assets/img/maul.png" alt="">
+        </div>
+    </div>
+</div>
+<!-- chars end -->
+
+  <!-- scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
