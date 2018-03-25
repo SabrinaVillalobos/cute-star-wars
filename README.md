@@ -1,4 +1,4 @@
-# Kawaii Star Wars
+# Cute Star Wars
 _May the (~~cutness~~) force be with you_
 
 Despliega información sobre personajes de Star Wars haciendo uso de la API Swapi.
