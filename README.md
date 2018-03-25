@@ -1,11 +1,7 @@
 # Kawaii Star Wars
 _May the (~~cutness~~) force be with you_
 
-Simple character info displayer using Star Wars Api, Swapi.
+Despliega información sobre personajes de Star Wars haciendo uso de la API Swapi.
 
-Some characters such as Han Solo and Chewy need Moesif Origin & CORS Changer plugin for working properly.
+![swapi](https://user-images.githubusercontent.com/31784893/37870293-a127a372-2fa8-11e8-9a6f-93960fd64635.png)
 
-![img](https://i.imgur.com/b6JzNoP.png)
-
-# Mobile ver
-![img](https://i.imgur.com/zXgyLq6.png)
