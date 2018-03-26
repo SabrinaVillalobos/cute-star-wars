@@ -24,7 +24,7 @@ $('.name').empty();
     '<p>Hair Color : '+ info.hair_color +'</p>'+
     '<p>Height : '+ info.height +'</p>'+
     '<p>Weight: '+ info.mass +'</p>'+
-    '<p>Skin Clor: '+ info.skin_color +'</p>'
+    '<p>Skin Color: '+ info.skin_color +'</p>'
       );
     }
   })
