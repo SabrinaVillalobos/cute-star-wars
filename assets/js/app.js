@@ -27,5 +27,5 @@ $('.name').empty();
     '<p>Skin Clor: '+ info.skin_color +'</p>'
       );
     }
-})
+  })
 });
